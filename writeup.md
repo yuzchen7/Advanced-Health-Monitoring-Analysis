@@ -8,16 +8,16 @@ Answer: There is a possibility that the device encountered a program error or lo
 
 During sleep, we expect maximum heart rate of a phase to be **lower** than the maximum heart rate of all other phases. Observe the visualizations and descriptive statistics that you've calculated. Using these findings, in which phase does sleep occur? Mention numerical details that back your findings.
 
-Answer: Based on the visualizations and the data set, we can observe that the middle part of the first half of the data, ranging from the 13th to the 25th data points, has a maximum heart rate of 67, and the heart rate remains at a relatively low level overall. Thus, we can conclude that there is a possibility that this range (13th to 25th) corresponds to the sleep phase.
+Answer: Based on the data set, phase 0 could be the sleep occur. The maximum heart rate of phase 0 is 93, which is the lowest maximum value among with other 4 phases. Also, the average heart rate in phase 0 is 64.59, which means that the heart rate remains consistently low level in this phase. Thus, we can conclude that phase 0 is corresponds to the sleep phase.
 
 ## Question 3
 
 During exercise, we expect the maximum heart rate of a phase to be **higher** the maximum heart rate of all other phases. Observe the visualizations and descriptive statistics that you've calculated. Using these findings, in which phase(s) does exercise occur? Mention numerical details that back your findings.
 
-Answer: Based on the data, the average heart rate is 64.59, the maximum is 93, and the standard deviation is 8.53. Since heart rate usually increase during exercise, we can concluded that heart rate 93 can be corresponds to the exercise time. Also, 93 is more then 3 standard deviation higher than the average 64.59, it can be considered an outlier in the dataset, there is a possibility because of exercise. In addition, the visualizations also show that 93 is located on the very top in the graph.
+Answer: Based on the data set, phase 2 could be the exercise period. The maximum heart rate in phase 2 data set is 117, that is much higher then phase 1 with 110, phase 3 with 99, and phase 0 with 93. Thus, we can conclude that phase 2 is corresponds to the exercise phase.
 
 ## Question 4
 
 During regular periods of awake activity, we expect the average heart rate of a phase to be relatively **lower** than the average heart rate of other phases, but we also expect standard deviation to be **higher**. In which phase do we notice this trend?
 
-Answer: Based on the visualizations and data set, we can observe that the middle part of the second half of the data, ranging from 40th to 60th, that's the phases that average(60) heart rate contains in relatively lower level. Also, the heart rate values show greater variation compared to other phases, such as heart rate from 45th to 46th, 50th to 51. Thus, we can conclude that there is a possibility that this range (40th to 60th) corresponds to the regular periods of awake activity phases.
+Answer: Based on the data set, phase 3 could be the awake activity time period. The average of the phase 3 is 60.65, which is the lowest average of all other phases. The standard deviation is 11.0, even though that is not the highest standard deviation among all 4 phases, it is relatively large compared to the others. Thus, we can conclude that phase 3 is corresponds to the awake activity phase.
