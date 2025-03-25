@@ -12,9 +12,9 @@ def filter_nondigits(data: list) -> list:
     Returns:
         List[integer]: the result of all valid data in Integer from input List
     """
-    data = data.split("\n")
     result: List[int] = []
     for line in data:
+        line = line.strip()
         if line.isdigit():
             result.append(int(line))
     return result
