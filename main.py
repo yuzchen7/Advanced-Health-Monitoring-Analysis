@@ -39,7 +39,7 @@ def run(filename: str) -> None:
     plt.legend()
     plt.grid(True)
 
-    plt.savefig("images/plot.png", dpi=300)
+    plt.savefig("images/"+filename[5:11]+".jpg", dpi=300)
     plt.close()
 
     # calculate the average, maximum, and standard deviation of this file using the functions you've wrote
