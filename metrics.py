@@ -8,7 +8,7 @@ def average(data: list) -> float:
     Args:
         data (list[int]): list of integers representing heart rate samples
     Returns:
-        float: a floating point value representing the average of this list
+        float: a floating point value representing the average of the list
     """
     if len(data) == 0:
         return []
@@ -25,7 +25,7 @@ def maximum(data: list) -> float:
     Args:
         data (list[int]): list of integers representing heart rate samples
     Returns:
-        float: a floating point value representing the maximum of this list
+        float: a floating point value representing the maximum of the list
     """
     if len(data) == 0:
         return []
@@ -43,7 +43,7 @@ def variance(data: list) -> float:
     Args:
         data (list[int]): list of integers representing heart rate samples
     Returns:
-        float: a floating point value representing the maximum of this list
+        float: a floating point value representing the variance of the list
     """
     if len(data) == 0:
         return []
@@ -57,12 +57,12 @@ def variance(data: list) -> float:
 
 def standard_deviation(data: list) -> float:
     """
-    Calculate variance value of the list.
+    Calculate standard deviation of the list.
 
     Args:
         data (list[int]): list of integers representing heart rate samples
     Returns:
-        float: a floating point value representing the maximum of this list
+        float: a floating point value representing the standard deviation of the list
     """
     if len(data) == 0:
         return []
